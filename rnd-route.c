@@ -3,7 +3,7 @@
 #include <math.h>
 #include <assert.h>
 
-#define NHARD	    10
+#define NHARD	    30
 #define SEED	123456
 
 int main (int argc, char** argv) {
