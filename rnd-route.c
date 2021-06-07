@@ -59,7 +59,7 @@ int main (int argc, char** argv) {
         count[lit]++;
         printf ("%i ", lit);
       }
-      full += rand() % (rand() % (nHard * nHard / (l*l)) + 1) + 1;
+      full += rand() % (rand() % (nHard) + 1) + 1;
     }
     while (full < nHard);
     printf ("0\n");
